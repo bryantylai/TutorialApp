@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WIN-ID2OJHLV36D</Machine>
+    <WindowsUser>blty_</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>ba5e4853-7a09-4649-a941-563ea6db2ccf</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\bld\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\data\db.json">
+      <PackagePath>data\db.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\pages\final\final.html">
+      <PackagePath>pages\final\final.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\pages\home\home.html">
+      <PackagePath>pages\home\home.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\pages\main\main.html">
+      <PackagePath>pages\main\main.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\images\option_background.png">
+      <PackagePath>images\option_background.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\images\smalllogo.png">
+      <PackagePath>images\smalllogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\images\storelogo.png">
+      <PackagePath>images\storelogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\images\widelogo.png">
+      <PackagePath>images\widelogo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\js\helper.js">
+      <PackagePath>js\helper.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\js\tutor.js">
+      <PackagePath>js\tutor.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\pages\final\final.js">
+      <PackagePath>pages\final\final.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\pages\home\home.js">
+      <PackagePath>pages\home\home.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\pages\main\main.js">
+      <PackagePath>pages\main\main.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\WinJS\js\en-US\ui.strings.js">
+      <PackagePath>WinJS\js\en-US\ui.strings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\WinJS\js\WinJS.js">
+      <PackagePath>WinJS\js\WinJS.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\WinJS\js\WinJS.intellisense.js">
+      <PackagePath>WinJS\js\WinJS.intellisense.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\WinJS\js\WinJS.intellisense-setup.js">
+      <PackagePath>WinJS\js\WinJS.intellisense-setup.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\pages\final\final.css">
+      <PackagePath>pages\final\final.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\pages\main\main.css">
+      <PackagePath>pages\main\main.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\WinJS\css\ui-dark.css">
+      <PackagePath>WinJS\css\ui-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\WinJS\css\ui-light.css">
+      <PackagePath>WinJS\css\ui-light.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\sounds\finished.mp3">
+      <PackagePath>sounds\finished.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\sounds\right.mp3">
+      <PackagePath>sounds\right.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\sounds\wrong.mp3">
+      <PackagePath>sounds\wrong.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\WinJS\fonts\Symbols.ttf">
+      <PackagePath>WinJS\fonts\Symbols.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

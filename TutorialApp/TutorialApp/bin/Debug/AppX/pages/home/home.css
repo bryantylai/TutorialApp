@@ -1,0 +1,75 @@
+﻿/*'splash' is the main container/background*/
+#splash {
+	display: -ms-grid;
+	-ms-grid-columns: 150fr 379fr 154fr; 
+	-ms-grid-rows: 85fr 157fr 22fr 31fr 89fr;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+
+#logo {
+	-ms-grid-column: 2;
+	-ms-grid-row: 2;
+	-ms-grid-row-align: center;
+	-ms-grid-column-align: stretch;
+}
+
+#startButton {
+	font-size: 40px;
+	letter-spacing: 10px;
+	width: 100%;
+	height: 100%;
+}
+
+/*'black' is the button container/background*/
+#black {
+	background-color: black;
+	-ms-grid-column: 2;
+	-ms-grid-row: 4;
+	-ms-grid-row-align: center;
+	-ms-grid-column-align: stretch;
+}
+
+@media all and (-ms-view-state: snapped) {
+	#splash {
+		-ms-grid-rows: 1fr 150px 50px 150px 1fr;
+		-ms-grid-columns: 1fr 250px 1fr;
+	}
+
+    #logo {
+    }
+
+	#startButton {
+		font-size: 30px;
+	}
+
+    #black {
+    }
+ }
+@media all and (-ms-view-state: filled) { 
+    #splash {
+	}
+
+    #logo {
+    }
+
+	#startButton {
+	}
+
+    #black {
+    }
+}
+@media all and (-ms-view-state: fullscreen-portrait) { 
+    #splash {
+	}
+
+    #logo {
+    }
+
+	#startButton {
+	}
+
+    #black {
+    }
+}

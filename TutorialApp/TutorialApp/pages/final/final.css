@@ -1,0 +1,120 @@
+﻿/*** 'final' IS THE MAIN CONTAINER/BACKGROUND ***/
+#final {
+	display: -ms-grid;
+	-ms-grid-columns: 1fr 800px 1fr; 
+	-ms-grid-rows: 1fr 300px 70px 100px 100px 1fr;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+
+#logo {
+	-ms-grid-column: 2;
+	-ms-grid-row: 2;
+	-ms-grid-row-align: center;
+	-ms-grid-column-align: stretch;
+}
+
+#message {
+	-ms-grid-column: 2;
+	-ms-grid-row: 3;
+	text-align: center;
+	color: #C8CF19;
+	font-size: 35px;
+	font-style: italic;
+}
+
+#finalScore {
+	-ms-grid-column: 2;
+	-ms-grid-row: 4;
+	font-size: 100px;
+	font-family: Segoe UI Semibold;
+	color: #E38407;
+	text-align: center;
+	-ms-grid-row-align: center;
+}
+
+#restartButton {
+	font-size: 40px;
+	letter-spacing: 10px;
+	width: 100%;
+	height: 100%;
+}
+
+/*** 'black' is the button container/background ***/
+#black {
+	background-color: black;
+	-ms-grid-column: 2;
+	-ms-grid-row: 5;
+	-ms-grid-row-align: center;
+	-ms-grid-column-align: stretch;
+}
+
+@media all and (-ms-view-state: snapped) {
+	#final {
+		-ms-grid-columns: 1fr 200px 1fr;
+		-ms-grid-rows: 1fr 200px 100px 200px 90px 1fr;
+	}
+
+    #logo {
+    }
+
+	#message {
+		font-size: 25px;
+		-ms-grid-row-align: center;
+	}
+
+    #finalScore {
+    }
+
+	#restartButton {
+		font-size: 25px;
+	}
+
+    #black {
+    }
+ }
+
+
+@media all and (-ms-view-state: fullscreen-portrait) {
+	#final {
+		-ms-grid-columns: 1fr 600px 1fr;
+		-ms-grid-rows: 113fr 438px 103px 302px 126px 284fr;
+	}
+
+    #logo {
+    }
+
+    #message {
+    }
+
+	#finalScore {
+		font-size: 150px;
+	}
+
+    #restartButton {
+    }
+
+    #black {
+    }
+ }
+
+@media all and (-ms-view-state: filled) { 
+    #final {
+	}
+
+    #logo {
+    }
+
+    #message {
+    }
+
+	#finalScore {
+	}
+
+    #restartButton {
+    }
+
+    #black {
+    }
+}

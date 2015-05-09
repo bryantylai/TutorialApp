@@ -1,0 +1,15 @@
+C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\bin\Debug\ReverseMap\resources.pri
+C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\bin\Debug\AppxManifest.xml
+C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\bin\Debug\TutorialApp.build.appxrecipe
+C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\bld\Debug\priconfig.xml
+C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\bld\Debug\priconfig.xml.intermediate
+C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\bld\Debug\layout.resfiles
+C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\bld\Debug\layout.resfiles.intermediate
+C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\bld\Debug\resources.resfiles
+C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\bld\Debug\resources.resfiles.intermediate
+C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\bld\Debug\pri.resfiles
+C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\bld\Debug\pri.resfiles.intermediate
+C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\bld\Debug\qualifiers.txt
+C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\bld\Debug\qualifiers.txt.intermediate
+C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\blty_\Documents\GitHub\TutorialApp\TutorialApp\TutorialApp\bld\Debug\ProjectArchitectures.txt

@@ -1,0 +1,370 @@
+﻿
+/*** 'main' IS THE MAIN CONTAINER/BACKGROUND ***/
+#main {
+	/*background-image: url('/images/background.png');*/
+	background-size: 100% 100%;
+}
+
+.pagetitle {
+	color: #363636;
+	font-family: Segoe UI Semibold;
+	text-overflow: ellipsis;
+}
+
+/*** GAME BODY AND GAME ELEMENTS ***/
+#gameBody {
+	display: -ms-grid;
+	width: 100%;
+	height: 100%;
+	-ms-grid-columns: 120px 322fr 523fr 330fr 71fr;
+	-ms-grid-rows: 68fr 36fr 483fr 53fr;
+}
+
+#pointsDisplay {
+	-ms-grid-column: 2;
+	-ms-grid-row: 2;
+	-ms-grid-row-align: center;
+	font-size: 25px;
+	font-style: italic;
+	font-weight: bold;
+	color: #363636;
+	letter-spacing: 2px;
+	margin-top: 0px;
+}
+
+#scoreDisplay {
+	-ms-grid-column: 4;
+	-ms-grid-row: 1;
+	-ms-grid-row-align: end;
+	font-size: 40px;
+	color: #363636;
+}
+
+/*** QUESTION TO DISPLAY (TEXT AND/OR IMAGE) ***/
+#txtQuestion {
+	-ms-grid-column: 2;
+	-ms-grid-row: 1;
+	-ms-grid-row-align: start;
+	font-size: 30px;
+	font-family: Segoe UI Semibold;
+	color: #363636;
+	-ms-grid-column-span: 2;
+	margin-top: 0px;
+	word-wrap: break-word;
+}
+
+#imgQuestion {
+}
+
+/*** OPTIONSPANEL AND OPTIONS ***/
+#optionsPanel {
+	display: -ms-flexbox;
+	-ms-grid-column: 2;
+	-ms-grid-row: 3;
+	-ms-grid-column-span: 3;
+	width: 100%;
+	height: 100%;
+	-ms-flex-wrap: wrap;
+	-ms-flex-line-pack: distribute;
+	-ms-flex-pack: distribute;
+}
+
+.optionDiv {
+	display: -ms-grid;
+	-ms-grid-row-align: center;
+	-ms-grid-column-align: center;
+	-ms-grid-columns: 1fr;
+	-ms-grid-rows: 1fr;
+	opacity: 0.8;
+}
+
+.optionDiv.small {
+	width: 49%;
+	height: 48%;
+}
+
+.optionDiv.medium {
+	width: 49%;
+	height: 23%;
+}
+
+.optionDiv.large {
+	width: 23%;
+	height: 15%;
+}
+
+.txtOption {
+	width: 100%;
+	-ms-grid-column: 1;
+	-ms-grid-row: 1;
+	-ms-grid-column-align: center;
+	-ms-grid-row-align: center;
+	color: #282828;
+	word-wrap: break-word;
+}
+
+.txtOption.small {
+	font-size: 50px;
+	text-align: center;
+}
+
+.txtOption.medium {
+	font-size: 40px;
+	text-align: center;
+}
+
+.txtOption.large {
+	font-size: 30px;
+	text-align: center;
+}
+
+.imgOption {
+	width: 100%;
+	height: 100%;
+	-ms-grid-column: 1;
+	-ms-grid-row: 1;
+	-ms-grid-column-align: center;
+	-ms-grid-row-align: center;
+}
+
+.imgOption.small {
+}
+
+.imgOption.medium {
+}
+
+.imgOption.large {
+}
+
+
+/*** OPTION STATES ***/
+.active {
+}
+
+.incorrect {
+	opacity: 0.4;
+	transition: ease-in-out opacity 0.5s;
+}
+
+.correct {
+	transition-property: color;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+	color: #B5450D;
+	font-weight: bold;
+}
+
+@media all and (-ms-view-state: filled) {
+    #main {
+    }
+
+	.pagetitle {
+
+	}
+
+    #gameBody {
+    }
+
+    #pointsDisplay {
+    }
+
+	#scoreDisplay {
+		font-size: 30px;
+	}
+
+	#txtQuestion {
+		font-size: 25px;
+	}
+
+    #imgQuestion {
+    }
+
+    #optionsPanel {
+    }
+
+	.optionDiv.small {
+	}
+
+    .optionDiv.medium {
+    }
+
+    .optionDiv.large {
+	}
+
+    .txtOption.small {
+    }
+
+    .txtOption.medium {
+    }
+
+    .txtOption.large {
+    }
+
+    .imgOption.small {
+    }
+
+    .imgOption.medium {
+    }
+
+    .imgOption.large {
+    }
+
+    .active {
+    }
+
+    .incorrect {
+    }
+
+    .correct {
+    }
+ }
+
+@media all and (-ms-view-state: snapped) {
+    #main {
+    }
+
+	.pagetitle {
+		margin-left: 100px;
+	}
+
+    #gameBody {
+    }
+
+	#pointsDisplay {
+		font-size: 15px;
+		-ms-grid-column-span: 2;
+		-ms-grid-row-align: start;
+	}
+
+	#scoreDisplay {
+		font-size: 15px;
+		-ms-grid-row-align: start;
+		text-align: right;
+	}
+
+	#txtQuestion {
+		font-size: 15px;
+		-ms-grid-row-align: start;
+	}
+
+    #imgQuestion {
+    }
+
+    #optionsPanel {
+    }
+
+	.optionDiv.small {
+		width: 90%;
+		height: 20%;
+	}
+	
+	.optionDiv.medium {
+		width: 90%;
+		height: 10%;
+	}
+	
+	.optionDiv.large {
+		width: 90%;
+		height: 5%;
+	}
+
+	.txtOption.small {
+		font-size: 23px;
+	}
+	
+	.txtOption.medium {
+		font-size: 20px;
+	}
+	
+	.txtOption.large {
+		font-size: 15px;
+	}
+
+    .imgOption.small {
+    }
+
+    .imgOption.medium {
+    }
+
+    .imgOption.large {
+    }
+
+
+    .active {
+    }
+
+    .incorrect {
+    }
+
+    .correct {
+    }
+ }
+
+@media all and (-ms-view-state: fullscreen-portrait) {
+    #main {
+    }
+
+	.pagetitle {
+		margin-left: 20px;
+	}
+
+    #gameBody {
+    }
+
+	#pointsDisplay {
+		-ms-grid-column-span: 2;
+		-ms-grid-row-align: start;
+	}
+
+	#scoreDisplay {
+		font-size: 35px;
+		-ms-grid-row-align: start;
+	}
+
+	#txtQuestion {
+		-ms-grid-row-align: start;
+		font-size: 30px;
+	}
+
+    #imgQuestion {
+    }
+
+    #optionsPanel {
+    }
+
+	.optionDiv.small {
+	}
+
+    .optionDiv.medium {
+    }
+
+    .optionDiv.large {
+	}
+
+    .txtOption.small {
+    }
+
+    .txtOption.medium {
+    }
+
+    .txtOption.large {
+    }
+
+    .imgOption.small {
+    }
+
+    .imgOption.medium {
+    }
+
+    .imgOption.large {
+    }
+
+    .active {
+    }
+
+    .incorrect {
+    }
+
+    .correct {
+    }
+ }

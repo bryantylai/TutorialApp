@@ -1,0 +1,85 @@
+﻿[
+  {
+    "id": "1",
+    "word": "Liverpool",
+    "definition": "Steven Gerrard",
+    "url": "/images/option_background.png"
+  },
+
+  {
+    "id": "2",
+    "word": "Chelsea",
+    "definition": "Eden Hazard",
+    "url": "/images/option_background.png"
+  },
+
+  {
+    "id": "3",
+    "word": "Manchester United",
+    "definition": "Wayne Rooney",
+    "url": "/images/option_background.png"
+  },
+
+  {
+    "id": "4",
+    "word": "Arsenal",
+    "definition": "Aaron Ramsey",
+    "url": "/images/option_background.png"
+  },
+
+  {
+    "id": "5",
+    "word": "Manchester City",
+    "definition": "Joe Hart",
+    "url": "/images/option_background.png"
+  },
+
+  {
+    "id": "6",
+    "word": "Bayern Munich",
+    "definition": "Manuel Neuer",
+    "url": "/images/option_background.png"
+  },
+
+  {
+    "id": "7",
+    "word": "Real Madrid",
+    "definition": "Iker Cassilas",
+    "url": "/images/option_background.png"
+  },
+
+  {
+    "id": "8",
+    "word": "Barcelona",
+    "definition": "Lionel Messi",
+    "url": "/images/option_background.png"
+  },
+
+  {
+    "id": "9",
+    "word": "Paris St. Germain",
+    "definition": "Zlatan Ibrahimovic",
+    "url": "/images/option_background.png"
+  },
+
+  {
+    "id": "10",
+    "word": "Atletico Madrid",
+    "definition": "Fernando Torres",
+    "url": "/images/option_background.png"
+  },
+
+  {
+    "id": "11",
+    "word": "Juventus",
+    "definition": "Carlos Tevez",
+    "url": "/images/option_background.png"
+  },
+
+  {
+    "id": "12",
+    "word": "AC Milan",
+    "definition": "Stephan El Shaarawy",
+    "url": "/images/option_background.png"
+  }
+]

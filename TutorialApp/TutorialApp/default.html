@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Guess The Team</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="WinJS/js/WinJS.js"></script>
+
+    <!-- TutorApp references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script src="/js/navigator.js"></script>
+    <script src="/js/helper.js"></script>
+    <script src="/js/tutor.js"></script>
+</head>
+<body>
+    <div id="contenthost" data-win-control="Application.PageControlNavigator" data-win-options="{home: '/pages/home/home.html'}"></div>
+     <!--<div id="appbar" data-win-control="WinJS.UI.AppBar">
+        <button data-win-control="WinJS.UI.AppBarCommand" data-win-options="{id :'cmd', label:'Command', icon:'placeholder'}" type="button"></button>
+    </div>--> 
+
+    <!-- TASK #6 | UPDATE SOUND FILES (OPTIONAL) -->
+    <audio preload="auto" id="sndRight">
+        <source src="/sounds/right.mp3" /></audio>
+    <audio preload="auto" id="sndWrong">
+        <source src="/sounds/wrong.mp3" /></audio>
+    <audio preload="auto" id="sndFinished">
+        <source src="/sounds/finished.mp3" /></audio>
+</body>
+</html>
